@@ -1,0 +1,42 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Node / Next.js (future phases)
+node_modules/
+.next/
+out/
+dist/
+coverage/
+.turbo/
+.vercel/
+
+# Python cache
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+venv/
+
+# Environment / credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+
+# Private user-generated media & local storage
+uploads/
+storage/private/
+data/private/
+media/originals/
+tmp/
+temp/
+
+# Logs
+*.log
+npm-debug.log*
